@@ -1,0 +1,159 @@
+/* ==========================================================================
+   GENERATIVE.SCSS
+   ========================================================================== */
+/* ==========================================================================
+   SETTINGS
+   ========================================================================== */
+/**
+ * BREAKPOINTS
+ *
+ * Set up our own sass-mq breakpoints
+ * https://github.com/sass-mq/sass-mq
+ */
+/**
+ * WIDTHS
+ *
+ * Define total columns
+ */
+/* ==========================================================================
+   GENERATIVE/WIDTHS
+   ========================================================================== */
+.u-w1 {
+  width: calc(100% * 1 / 12) !important; }
+
+.u-w2 {
+  width: calc(100% * 2 / 12) !important; }
+
+.u-w3 {
+  width: calc(100% * 3 / 12) !important; }
+
+.u-w4 {
+  width: calc(100% * 4 / 12) !important; }
+
+.u-w5 {
+  width: calc(100% * 5 / 12) !important; }
+
+.u-w6 {
+  width: calc(100% * 6 / 12) !important; }
+
+.u-w7 {
+  width: calc(100% * 7 / 12) !important; }
+
+.u-w8 {
+  width: calc(100% * 8 / 12) !important; }
+
+.u-w9 {
+  width: calc(100% * 9 / 12) !important; }
+
+.u-w10 {
+  width: calc(100% * 10 / 12) !important; }
+
+.u-w11 {
+  width: calc(100% * 11 / 12) !important; }
+
+.u-w12 {
+  width: calc(100% * 12 / 12) !important; }
+
+@media (min-width: 20em) {
+  .u-w1\@sm {
+    width: calc(100% * 1 / 12) !important; }
+  .u-w2\@sm {
+    width: calc(100% * 2 / 12) !important; }
+  .u-w3\@sm {
+    width: calc(100% * 3 / 12) !important; }
+  .u-w4\@sm {
+    width: calc(100% * 4 / 12) !important; }
+  .u-w5\@sm {
+    width: calc(100% * 5 / 12) !important; }
+  .u-w6\@sm {
+    width: calc(100% * 6 / 12) !important; }
+  .u-w7\@sm {
+    width: calc(100% * 7 / 12) !important; }
+  .u-w8\@sm {
+    width: calc(100% * 8 / 12) !important; }
+  .u-w9\@sm {
+    width: calc(100% * 9 / 12) !important; }
+  .u-w10\@sm {
+    width: calc(100% * 10 / 12) !important; }
+  .u-w11\@sm {
+    width: calc(100% * 11 / 12) !important; }
+  .u-w12\@sm {
+    width: calc(100% * 12 / 12) !important; } }
+
+@media (min-width: 46.25em) {
+  .u-w1\@md {
+    width: calc(100% * 1 / 12) !important; }
+  .u-w2\@md {
+    width: calc(100% * 2 / 12) !important; }
+  .u-w3\@md {
+    width: calc(100% * 3 / 12) !important; }
+  .u-w4\@md {
+    width: calc(100% * 4 / 12) !important; }
+  .u-w5\@md {
+    width: calc(100% * 5 / 12) !important; }
+  .u-w6\@md {
+    width: calc(100% * 6 / 12) !important; }
+  .u-w7\@md {
+    width: calc(100% * 7 / 12) !important; }
+  .u-w8\@md {
+    width: calc(100% * 8 / 12) !important; }
+  .u-w9\@md {
+    width: calc(100% * 9 / 12) !important; }
+  .u-w10\@md {
+    width: calc(100% * 10 / 12) !important; }
+  .u-w11\@md {
+    width: calc(100% * 11 / 12) !important; }
+  .u-w12\@md {
+    width: calc(100% * 12 / 12) !important; } }
+
+@media (min-width: 61.25em) {
+  .u-w1\@lg {
+    width: calc(100% * 1 / 12) !important; }
+  .u-w2\@lg {
+    width: calc(100% * 2 / 12) !important; }
+  .u-w3\@lg {
+    width: calc(100% * 3 / 12) !important; }
+  .u-w4\@lg {
+    width: calc(100% * 4 / 12) !important; }
+  .u-w5\@lg {
+    width: calc(100% * 5 / 12) !important; }
+  .u-w6\@lg {
+    width: calc(100% * 6 / 12) !important; }
+  .u-w7\@lg {
+    width: calc(100% * 7 / 12) !important; }
+  .u-w8\@lg {
+    width: calc(100% * 8 / 12) !important; }
+  .u-w9\@lg {
+    width: calc(100% * 9 / 12) !important; }
+  .u-w10\@lg {
+    width: calc(100% * 10 / 12) !important; }
+  .u-w11\@lg {
+    width: calc(100% * 11 / 12) !important; }
+  .u-w12\@lg {
+    width: calc(100% * 12 / 12) !important; } }
+
+@media (min-width: 81.25em) {
+  .u-w1\@xl {
+    width: calc(100% * 1 / 12) !important; }
+  .u-w2\@xl {
+    width: calc(100% * 2 / 12) !important; }
+  .u-w3\@xl {
+    width: calc(100% * 3 / 12) !important; }
+  .u-w4\@xl {
+    width: calc(100% * 4 / 12) !important; }
+  .u-w5\@xl {
+    width: calc(100% * 5 / 12) !important; }
+  .u-w6\@xl {
+    width: calc(100% * 6 / 12) !important; }
+  .u-w7\@xl {
+    width: calc(100% * 7 / 12) !important; }
+  .u-w8\@xl {
+    width: calc(100% * 8 / 12) !important; }
+  .u-w9\@xl {
+    width: calc(100% * 9 / 12) !important; }
+  .u-w10\@xl {
+    width: calc(100% * 10 / 12) !important; }
+  .u-w11\@xl {
+    width: calc(100% * 11 / 12) !important; }
+  .u-w12\@xl {
+    width: calc(100% * 12 / 12) !important; } }

@@ -1,0 +1,20 @@
+/* ==========================================================================
+   GENERATIVE/SETTINGS
+   ========================================================================== */
+
+
+// Define sass-mq breakpoints
+// https://github.com/sass-mq/sass-mq
+
+$mq-breakpoints: (
+  sm: 320px,
+  md: 740px,
+  lg: 980px,
+  xl: 1300px
+);
+
+
+// Define the total columns needed. By default, we generate
+// fractions for 12 columns.
+
+$total-columns: 12 !default;

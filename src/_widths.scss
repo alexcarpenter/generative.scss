@@ -1,0 +1,24 @@
+/* ==========================================================================
+   GENERATIVE/WIDTHS
+   ========================================================================== */
+
+
+@mixin utility-widths($total-columns: 12, $breakpoint: null) {
+  @for $i from 1 through $total-columns {
+    .u-w#{$i}#{$breakpoint} {
+      width: calc(100% * #{$i} / #{$total-columns}) !important;
+    }
+  }
+}
+
+
+@include utility-widths($total-columns);
+
+
+@if (variable-exists(mq-breakpoints)) {
+  @each $bp-name, $bp-value in $mq-breakpoints {
+    @include mq($from: $bp-name) {
+      @include utility-widths($total-columns, \@#{$bp-name});
+    }
+  }
+}

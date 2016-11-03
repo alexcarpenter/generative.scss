@@ -1,0 +1,20 @@
+{
+  "name": "generative.scss",
+  "version": "0.1.0",
+  "description": "Generate responsive atomic classes with Sass.",
+  "main": "index.scss",
+  "scripts": {
+    "dev": "node-sass index.scss dist/generative.css",
+    "build": "node-sass index.scss dist/generative.css --output-style compressed",
+    "size": "gzip-size dist/generative.css | pretty-bytes"
+  },
+  "keywords": [
+    "Sass"
+  ],
+  "author": "Alex Carpenter",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^3.10.1",
+    "sass-mq": "^3.2.9"
+  }
+}
