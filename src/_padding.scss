@@ -5,6 +5,7 @@
 
 @mixin utility-paddings($breakpoint: null) {
   @each $name, $value in $spacing-units {
+    .u-padding-#{$name}#{$breakpoint} { padding: #{$value} !important; }
     .u-padding-top-#{$name}#{$breakpoint} { padding-top: #{$value} !important; }
     .u-padding-right-#{$name}#{$breakpoint} { padding-right: #{$value} !important; }
     .u-padding-bottom-#{$name}#{$breakpoint} { padding-bottom: #{$value} !important; }

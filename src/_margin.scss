@@ -5,6 +5,7 @@
 
 @mixin utility-margins($breakpoint: null) {
   @each $name, $value in $spacing-units {
+    .u-margin-#{$name}#{$breakpoint} { margin: #{$value} !important; }
     .u-margin-top-#{$name}#{$breakpoint} { margin-top: #{$value} !important; }
     .u-margin-right-#{$name}#{$breakpoint} { margin-right: #{$value} !important; }
     .u-margin-bottom-#{$name}#{$breakpoint} { margin-bottom: #{$value} !important; }

@@ -45,6 +45,8 @@ $spacing-unit-factor-huge: 4 !default;
 $spacing-units: (
   tiny: round($spacing-unit * $spacing-unit-factor-tiny),
   small: round($spacing-unit * $spacing-unit-factor-small),
+  default: $spacing-unit,
   large: round($spacing-unit * $spacing-unit-factor-large),
-  huge: round($spacing-unit * $spacing-unit-factor-huge)
+  huge: round($spacing-unit * $spacing-unit-factor-huge),
+  none: 0
 ) !default;

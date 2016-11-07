@@ -8,6 +8,6 @@
 
 | gzip size | Selectors | Rules |
 |:-:|:-:|:-:|
-| 1.29kb | 250 | 250 |
+| 1.97kb | 390 | 390 |
 
 *Inspired by [inuitcss](https://github.com/inuitcss/inuitcss)*.
