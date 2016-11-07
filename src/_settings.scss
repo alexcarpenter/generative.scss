@@ -24,18 +24,18 @@ $total-columns: 12 !default;
 // Headings
 
 $headings: (
-  h1: 36px,
-  h2: 28px,
-  h3: 24px,
-  h4: 20px,
-  h5: 18px,
-  h6: 16px
+  h1: 2.25rem,
+  h2: 1.75rem,
+  h3: 1.5rem,
+  h4: 1.25rem,
+  h5: 1.125rem,
+  h6: 1rem
 ) !default;
 
 
 // Spacing units
 
-$spacing-unit: 24px !default;
+$spacing-unit: 1.5rem !default;
 
 $spacing-unit-factor-tiny: 0.25 !default;
 $spacing-unit-factor-small: 0.5 !default;
@@ -43,10 +43,10 @@ $spacing-unit-factor-large: 2 !default;
 $spacing-unit-factor-huge: 4 !default;
 
 $spacing-units: (
-  tiny: round($spacing-unit * $spacing-unit-factor-tiny),
-  small: round($spacing-unit * $spacing-unit-factor-small),
+  tiny: $spacing-unit * $spacing-unit-factor-tiny,
+  small: $spacing-unit * $spacing-unit-factor-small,
   default: $spacing-unit,
-  large: round($spacing-unit * $spacing-unit-factor-large),
-  huge: round($spacing-unit * $spacing-unit-factor-huge),
+  large: $spacing-unit * $spacing-unit-factor-large,
+  huge: $spacing-unit * $spacing-unit-factor-huge,
   none: 0
 ) !default;
