@@ -5,8 +5,8 @@
   "main": "index.scss",
   "scripts": {
     "dev": "node-sass index.scss dist/generative.css",
-    "build": "node-sass index.scss dist/generative.css --output-style compressed",
-    "size": "gzip-size dist/generative.css | pretty-bytes"
+    "build": "node-sass index.scss dist/generative.min.css --output-style compressed",
+    "size": "gzip-size dist/generative.min.css | pretty-bytes"
   },
   "keywords": [
     "Sass"
