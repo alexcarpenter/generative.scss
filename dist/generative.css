@@ -2,19 +2,85 @@
    GENERATIVE.SCSS
    ========================================================================== */
 /* ==========================================================================
-   SETTINGS
+   GENERATIVE/SETTINGS
    ========================================================================== */
-/**
- * BREAKPOINTS
- *
- * Set up our own sass-mq breakpoints
- * https://github.com/sass-mq/sass-mq
- */
-/**
- * WIDTHS
- *
- * Define total columns
- */
+/* ==========================================================================
+   GENERATIVE/HEADINGS
+   ========================================================================== */
+.u-h1 {
+  font-size: 36px !important; }
+
+.u-h2 {
+  font-size: 28px !important; }
+
+.u-h3 {
+  font-size: 24px !important; }
+
+.u-h4 {
+  font-size: 20px !important; }
+
+.u-h5 {
+  font-size: 18px !important; }
+
+.u-h6 {
+  font-size: 16px !important; }
+
+@media (min-width: 20em) {
+  .u-h1\@sm {
+    font-size: 36px !important; }
+  .u-h2\@sm {
+    font-size: 28px !important; }
+  .u-h3\@sm {
+    font-size: 24px !important; }
+  .u-h4\@sm {
+    font-size: 20px !important; }
+  .u-h5\@sm {
+    font-size: 18px !important; }
+  .u-h6\@sm {
+    font-size: 16px !important; } }
+
+@media (min-width: 46.25em) {
+  .u-h1\@md {
+    font-size: 36px !important; }
+  .u-h2\@md {
+    font-size: 28px !important; }
+  .u-h3\@md {
+    font-size: 24px !important; }
+  .u-h4\@md {
+    font-size: 20px !important; }
+  .u-h5\@md {
+    font-size: 18px !important; }
+  .u-h6\@md {
+    font-size: 16px !important; } }
+
+@media (min-width: 61.25em) {
+  .u-h1\@lg {
+    font-size: 36px !important; }
+  .u-h2\@lg {
+    font-size: 28px !important; }
+  .u-h3\@lg {
+    font-size: 24px !important; }
+  .u-h4\@lg {
+    font-size: 20px !important; }
+  .u-h5\@lg {
+    font-size: 18px !important; }
+  .u-h6\@lg {
+    font-size: 16px !important; } }
+
+@media (min-width: 81.25em) {
+  .u-h1\@xl {
+    font-size: 36px !important; }
+  .u-h2\@xl {
+    font-size: 28px !important; }
+  .u-h3\@xl {
+    font-size: 24px !important; }
+  .u-h4\@xl {
+    font-size: 20px !important; }
+  .u-h5\@xl {
+    font-size: 18px !important; }
+  .u-h6\@xl {
+    font-size: 16px !important; } }
+
 /* ==========================================================================
    GENERATIVE/WIDTHS
    ========================================================================== */

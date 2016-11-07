@@ -14,7 +14,25 @@ $mq-breakpoints: (
 );
 
 
-// Define the total columns needed. By default, we generate
+// Widths
+// Define the total columns needed for widths. By default, we generate
 // fractions for 12 columns.
 
 $total-columns: 12 !default;
+
+
+// Headings
+
+$headings: (
+  h1: 36px,
+  h2: 28px,
+  h3: 24px,
+  h4: 20px,
+  h5: 18px,
+  h6: 16px
+) !default;
+
+
+// Spacing
+
+$spacing-unit: 24px !default;

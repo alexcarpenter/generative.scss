@@ -1,0 +1,24 @@
+/* ==========================================================================
+   GENERATIVE/HEADINGS
+   ========================================================================== */
+
+
+@mixin utility-headings($breakpoint: null) {
+  @each $name, $value in $headings {
+    .u-#{$name}#{$breakpoint} {
+      font-size: #{$value} !important;
+    }
+  }
+}
+
+
+@include utility-headings();
+
+
+@if (variable-exists(mq-breakpoints)) {
+  @each $name, $value in $mq-breakpoints {
+    @include mq($from: $name) {
+      @include utility-headings(\@#{$name});
+    }
+  }
+}

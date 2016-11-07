@@ -16,9 +16,9 @@
 
 
 @if (variable-exists(mq-breakpoints)) {
-  @each $bp-name, $bp-value in $mq-breakpoints {
-    @include mq($from: $bp-name) {
-      @include utility-widths($total-columns, \@#{$bp-name});
+  @each $name, $value in $mq-breakpoints {
+    @include mq($from: $name) {
+      @include utility-widths($total-columns, \@#{$name});
     }
   }
 }

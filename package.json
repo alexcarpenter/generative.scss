@@ -1,7 +1,7 @@
 {
   "name": "generative.scss",
   "version": "0.1.0",
-  "description": "Generate responsive atomic classes with Sass.",
+  "description": "Generate responsive utility classes with Sass.",
   "main": "index.scss",
   "scripts": {
     "dev": "node-sass index.scss dist/generative.css",
