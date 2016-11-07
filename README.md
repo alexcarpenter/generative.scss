@@ -5,3 +5,9 @@
 </a>
 
 > Generate responsive utility classes with Sass.
+
+| gzip size | Selectors | Rules |
+|:-:|:-:|:-:|
+| 1.59kb | 250 | 250 |
+
+*Inspired by [inuitcss](https://github.com/inuitcss/inuitcss)*.

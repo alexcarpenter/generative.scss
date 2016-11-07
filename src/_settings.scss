@@ -33,6 +33,18 @@ $headings: (
 ) !default;
 
 
-// Spacing
+// Spacing units
 
 $spacing-unit: 24px !default;
+
+$spacing-unit-factor-tiny: 0.25 !default;
+$spacing-unit-factor-small: 0.5 !default;
+$spacing-unit-factor-large: 2 !default;
+$spacing-unit-factor-huge: 4 !default;
+
+$spacing-units: (
+  tiny: round($spacing-unit * $spacing-unit-factor-tiny),
+  small: round($spacing-unit * $spacing-unit-factor-small),
+  large: round($spacing-unit * $spacing-unit-factor-large),
+  huge: round($spacing-unit * $spacing-unit-factor-huge)
+) !default;

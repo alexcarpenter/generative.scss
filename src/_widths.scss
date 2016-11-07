@@ -5,7 +5,7 @@
 
 @mixin utility-widths($total-columns: 12, $breakpoint: null) {
   @for $i from 1 through $total-columns {
-    .u-w#{$i}#{$breakpoint} {
+    .u-width-#{$i}#{$breakpoint} {
       width: calc(100% * #{$i} / #{$total-columns}) !important;
     }
   }

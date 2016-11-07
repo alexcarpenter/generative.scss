@@ -3,3 +3,23 @@
    ========================================================================== */
 
 
+@mixin utility-margins($breakpoint: null) {
+  @each $name, $value in $spacing-units {
+    .u-margin-top-#{$name}#{$breakpoint} { margin-top: #{$value} !important; }
+    .u-margin-right-#{$name}#{$breakpoint} { margin-right: #{$value} !important; }
+    .u-margin-bottom-#{$name}#{$breakpoint} { margin-bottom: #{$value} !important; }
+    .u-margin-left-#{$name}#{$breakpoint} { margin-left: #{$value} !important; }
+  }
+}
+
+
+@include utility-margins();
+
+
+@if (variable-exists(mq-breakpoints)) {
+  @each $name, $value in $mq-breakpoints {
+    @include mq($from: $name) {
+      @include utility-margins(\@#{$name});
+    }
+  }
+}

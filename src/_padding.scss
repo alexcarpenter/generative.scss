@@ -3,3 +3,23 @@
    ========================================================================== */
 
 
+@mixin utility-paddings($breakpoint: null) {
+  @each $name, $value in $spacing-units {
+    .u-padding-top-#{$name}#{$breakpoint} { padding-top: #{$value} !important; }
+    .u-padding-right-#{$name}#{$breakpoint} { padding-right: #{$value} !important; }
+    .u-padding-bottom-#{$name}#{$breakpoint} { padding-bottom: #{$value} !important; }
+    .u-padding-left-#{$name}#{$breakpoint} { padding-left: #{$value} !important; }
+  }
+}
+
+
+@include utility-paddings();
+
+
+@if (variable-exists(mq-breakpoints)) {
+  @each $name, $value in $mq-breakpoints {
+    @include mq($from: $name) {
+      @include utility-paddings(\@#{$name});
+    }
+  }
+}
