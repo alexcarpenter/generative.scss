@@ -4,7 +4,7 @@
   <img src="https://unpkg.com/vvwip/AWIP.svg" alt="AWIP" align='right' />
 </a>
 
-> Generate responsive utility classes with Sass.
+> Generate responsive utility classes with Sass. Inspired by [inuitcss](https://github.com/inuitcss/inuitcss)
 
 | gzip size | Selectors | Rules |
 |:-:|:-:|:-:|
@@ -17,8 +17,4 @@
 
 or
 
-`<link rel="stylesheet" href="//unpkg.com/generative.scss@0.1.0/dist/generative.min.css">`
-
----
-
-*Inspired by [inuitcss](https://github.com/inuitcss/inuitcss)*.
+`<link rel="stylesheet" href="//unpkg.com/generative.scss@1.1.0/dist/generative.min.css">`
