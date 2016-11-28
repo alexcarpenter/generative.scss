@@ -17,7 +17,7 @@
 
 or link directly to minified source:
 
-`<link rel="stylesheet" href="//unpkg.com/generative.scss@1.1.0/dist/generative.min.css">`
+`<link rel="stylesheet" href="//unpkg.com/generative.scss@1.2.0/dist/generative.min.css">`
 
 ## Usage
 
