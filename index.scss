@@ -3,8 +3,10 @@
    ========================================================================== */
 
 
-@import 'src/settings';
+@import 'src/config';
 @import 'node_modules/sass-mq/mq';
+@import 'src/backgrounds';
+@import 'src/colors';
 @import 'src/headings';
 @import 'src/margin';
 @import 'src/padding';

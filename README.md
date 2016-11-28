@@ -8,7 +8,7 @@
 
 | gzip size | Selectors | Rules |
 |:-:|:-:|:-:|
-| 1.97kb | 390 | 390 |
+| 2.11kb | 406 | 406 |
 
 
 ## Install

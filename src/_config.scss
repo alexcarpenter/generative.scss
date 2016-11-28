@@ -1,11 +1,12 @@
 /* ==========================================================================
-   GENERATIVE/SETTINGS
+   GENERATIVE/CONFIG
    ========================================================================== */
 
 
-// Define sass-mq breakpoints
-// https://github.com/sass-mq/sass-mq
-
+/**
+ * BREAKPOINTS
+ * https://github.com/sass-mq/sass-mq
+ */
 $mq-breakpoints: (
   sm: 320px,
   md: 740px,
@@ -14,15 +15,17 @@ $mq-breakpoints: (
 );
 
 
-// Widths
-// Define the total columns needed for widths. By default, we generate
-// fractions for 12 columns.
-
+/**
+ * WIDTHS
+ * Define the total columns needed for widths.
+ * By default, we generate fractions for 12 columns.
+ */
 $total-columns: 12 !default;
 
 
-// Headings
-
+/**
+ * HEADINGS
+ */
 $headings: (
   h1: 2.25rem,
   h2: 1.75rem,
@@ -33,8 +36,9 @@ $headings: (
 ) !default;
 
 
-// Spacing units
-
+/**
+ * SPACING-UNITS
+ */
 $spacing-unit: 1.5rem !default;
 
 $spacing-unit-factor-tiny: 0.25 !default;
@@ -49,4 +53,20 @@ $spacing-units: (
   large: $spacing-unit * $spacing-unit-factor-large,
   huge: $spacing-unit * $spacing-unit-factor-huge,
   none: 0
+) !default;
+
+
+/**
+ * COLORS
+ * Used to generate background and color utilities.
+ */
+$colors: (
+  gray-8: #343A40,
+  gray-6: #868E96,
+  gray-4: #CED4DA,
+  gray-2: #E9ECEF,
+  indigo-8: #3B5BDB,
+  indigo-6: #4C6EF5,
+  indigo-4: #748FFC,
+  indigo-2: #BAC8FF
 ) !default;
