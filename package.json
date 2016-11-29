@@ -4,7 +4,7 @@
   "description": "Generate responsive utility classes with Sass.",
   "main": "index.scss",
   "scripts": {
-    "dev": "node-sass index.scss dist/generative.css",
+    "dev": "node-sass index.scss dist/generative.css --output-style expanded",
     "build": "node-sass index.scss dist/generative.min.css --output-style compressed",
     "size": "gzip-size dist/generative.min.css | pretty-bytes"
   },
